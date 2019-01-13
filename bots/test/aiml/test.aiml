@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version = "1.0.1" encoding = "UTF-8"?> <!--marks the start and end of a AIML document.-->
+    <category> <!--fundamental knowledge unit of an ALICE Bot.-->
+        <pattern> HELLO ALICE </pattern> <!---represents a user's input, should be the 1st tag in <category>-->
+
+        <template> <!--represents the bot's response to the user, should be the 2nd tag <category>-->
+            Hello User
+        </template>
+
+    </category>
+</aiml>           
